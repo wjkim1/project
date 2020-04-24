@@ -1,0 +1,15 @@
+<<<< 프로그램 업데이트 정보 >>>>
+
+[Update date : 2020.01.09]
+Version :  2015 Ver 1.5.0
+[프로그램] 
+COUPLING 실적 검색
+COUPLING COVER 실적 검색 / 템플릿 생성
+OIL RESERVOIR 실적 검색 / 템플릿 생성
+OIL PIPING 실적 검색 / 템플릿 생성
+BASE FRAME 실적 검색
+
+[TEMPLATE]
+COUPLING COVER
+OIL RESERVOIR
+OIL PIPING

@@ -1,0 +1,16 @@
+<<<< 프로그램 업데이트 정보 >>>>
+
+!!! 로컬장비의 기존폴더(Exe_File)를 삭제후 복사하기 바랍니다.
+!!! 최신프로그램이 아니면 프로그램 실행안됨
+
+[Update date : 2019.07.19]
+Version :  2015 Ver 1.5.0
+[프로그램] 
+COUPLING COVER 실적 검색 / 템플릿 생성
+OIL RESERVOIR 실적 검색 / 템플릿 생성
+OIL PIPING 실적 검색 / 템플릿 생성
+
+[TEMPLATE]
+COUPLING COVER
+OIL RESERVOIR
+OIL PIPING

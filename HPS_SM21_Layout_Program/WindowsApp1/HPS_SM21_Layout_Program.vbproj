@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{95F66C92-195C-4DCE-A3C8-3A5097CCCE95}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SM21_Layout_Program.My.MyApplication</StartupObject>
+    <RootNamespace>SM21_Layout_Program</RootNamespace>
+    <AssemblyName>SM21_Layout_Program</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SM21_Layout_Program.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SM21_Layout_Program.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Modules\Layout_Program.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="microsoft.windowsapicodepack">
+      <HintPath>Ref\microsoft.windowsapicodepack.dll</HintPath>
+    </Reference>
+    <Reference Include="microsoft.windowsapicodepack.shell">
+      <HintPath>Ref\microsoft.windowsapicodepack.shell.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AA_Update_Form.Designer.vb">
+      <DependentUpon>AA_Update_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AA_Update_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AB_Part_Replace.Designer.vb">
+      <DependentUpon>AB_Part_Replace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AB_Part_Replace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BA_Coupling_Template_Create.Designer.vb">
+      <DependentUpon>BA_Coupling_Template_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BA_Coupling_Template_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B_Coupling_Create.Designer.vb">
+      <DependentUpon>B_Coupling_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="B_Coupling_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CA_Coupling_Cover_Template_Create.Designer.vb">
+      <DependentUpon>CA_Coupling_Cover_Template_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CA_Coupling_Cover_Template_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C_Coupling_Cover_Create.Designer.vb">
+      <DependentUpon>C_Coupling_Cover_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="C_Coupling_Cover_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DA_Oil_Tank_Template_Create.Designer.vb">
+      <DependentUpon>DA_Oil_Tank_Template_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DA_Oil_Tank_Template_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="D_Oil_Tank_Create.Designer.vb">
+      <DependentUpon>D_Oil_Tank_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="D_Oil_Tank_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EA_Oil_Piping_Template_Create.Designer.vb">
+      <DependentUpon>EA_Oil_Piping_Template_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EA_Oil_Piping_Template_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="E_Oil_Piping_Create.Designer.vb">
+      <DependentUpon>E_Oil_Piping_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="E_Oil_Piping_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FA_AC_Outlet_Template_Create.Designer.vb">
+      <DependentUpon>FA_AC_Outlet_Template_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FA_AC_Outlet_Template_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_AC_Outlet_Create.Designer.vb">
+      <DependentUpon>F_AC_Outlet_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="F_AC_Outlet_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GA_Enclosure_Template_Create.Designer.vb">
+      <DependentUpon>GA_Enclosure_Template_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GA_Enclosure_Template_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GB_Enclosure_Template_Motor_Top_Panel.Designer.vb">
+      <DependentUpon>GB_Enclosure_Template_Motor_Top_Panel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GB_Enclosure_Template_Motor_Top_Panel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="G_Enclosure_Create.Designer.vb">
+      <DependentUpon>G_Enclosure_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="G_Enclosure_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HA_Base_Frame_Template_Create.Designer.vb">
+      <DependentUpon>HA_Base_Frame_Template_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HA_Base_Frame_Template_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="H_Base_Frame_Create.Designer.vb">
+      <DependentUpon>H_Base_Frame_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="H_Base_Frame_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\AC_Outlet.vb" />
+    <Compile Include="Modules\Base_Frame.vb" />
+    <Compile Include="Modules\Coupling.vb" />
+    <Compile Include="Modules\Coupling_Cover.vb" />
+    <Compile Include="Modules\Enclosure.vb" />
+    <Compile Include="Modules\Oil_Piping.vb" />
+    <Compile Include="Modules\Oil_Tank.vb" />
+    <Compile Include="ZA_Clash_Check_Create.Designer.vb">
+      <DependentUpon>ZA_Clash_Check_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZA_Clash_Check_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_Main_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A_Main_Form.Designer.vb">
+      <DependentUpon>A_Main_Form.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Common_Function.vb" />
+    <Compile Include="Modules\Comp_Layout.vb" />
+    <Compile Include="Modules\ISParkvb.vb" />
+    <Compile Include="Modules\Oil_Return_Piping.vb" />
+    <Compile Include="Modules\O_BOM_Layout_Construction.vb" />
+    <Compile Include="Modules\Result_Data.vb" />
+    <Compile Include="Modules\Template.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Template_Data_Loading_Form.Designer.vb">
+      <DependentUpon>Template_Data_Loading_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Template_Data_Loading_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZB_Template_Parameter_Control.Designer.vb">
+      <DependentUpon>ZB_Template_Parameter_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZB_Template_Parameter_Control.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZZZB_Parameter_Create.Designer.vb">
+      <DependentUpon>ZZZB_Parameter_Create.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZZZB_Parameter_Create.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AA_Update_Form.resx">
+      <DependentUpon>AA_Update_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AB_Part_Replace.resx">
+      <DependentUpon>AB_Part_Replace.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A_Main_Form.resx">
+      <DependentUpon>A_Main_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BA_Coupling_Template_Create.resx">
+      <DependentUpon>BA_Coupling_Template_Create.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B_Coupling_Create.resx">
+      <DependentUpon>B_Coupling_Create.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CA_Coupling_Cover_Template_Create.resx">
+      <DependentUpon>CA_Coupling_Cover_Template_Create.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C_Coupling_Cover_Create.resx">
+      <DependentUpon>C_Coupling_Cover_Create.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DA_Oil_Tank_Template_Create.resx">
+      <DependentUpon>DA_Oil_Tank_Template_Create.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="D_Oil_Tank_Create.resx">
+      <DependentUpon>D_Oil_Tank_Create.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EA_Oil_Piping_Template_Create.resx">
+      <DependentUpon>EA_Oil_Piping_Template_Create.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="E_Oil_Piping_Create.resx">
+      <DependentUpon>E_Oil_Piping_Create.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FA_AC_Outlet_Template_Create.resx">
+      <DependentUpon>FA_AC_Outlet_Template_Create.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_AC_Outlet_Create.resx">
+      <DependentUpon>F_AC_Outlet_Create.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GA_Enclosure_Template_Create.resx">
+      <DependentUpon>GA_Enclosure_Template_Create.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GB_Enclosure_Template_Motor_Top_Panel.resx">
+      <DependentUpon>GB_Enclosure_Template_Motor_Top_Panel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G_Enclosure_Create.resx">
+      <DependentUpon>G_Enclosure_Create.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HA_Base_Frame_Template_Create.resx">
+      <DependentUpon>HA_Base_Frame_Template_Create.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="H_Base_Frame_Create.resx">
+      <DependentUpon>H_Base_Frame_Create.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZA_Clash_Check_Create.resx">
+      <DependentUpon>ZA_Clash_Check_Create.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Template_Data_Loading_Form.resx">
+      <DependentUpon>Template_Data_Loading_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZB_Template_Parameter_Control.resx">
+      <DependentUpon>ZB_Template_Parameter_Control.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZZZB_Parameter_Create.resx">
+      <DependentUpon>ZZZB_Parameter_Create.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="DRAFTINGITF">
+      <Guid>{73130905-462A-11D1-A26A-0000F87546A1}</Guid>
+      <VersionMajor>0</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="HybridShapeTypeLib">
+      <Guid>{87EE735C-DF70-11D1-8556-0060941979CE}</Guid>
+      <VersionMajor>0</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="INFITF">
+      <Guid>{14F197B2-0771-11D1-A5B1-00A0C9575177}</Guid>
+      <VersionMajor>0</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="KnowledgewareTypeLib">
+      <Guid>{0770412C-722E-11D2-8378-0060941974FF}</Guid>
+      <VersionMajor>0</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="MECMOD">
+      <Guid>{0D90A5C9-3B08-11D1-A26C-0000F87546FD}</Guid>
+      <VersionMajor>0</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="NavigatorTypeLib">
+      <Guid>{E6BCB304-3260-11D4-9465-006094EB3826}</Guid>
+      <VersionMajor>0</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ProductStructureTypeLib">
+      <Guid>{5065F8B6-61BB-11D1-9D85-0000F8759F82}</Guid>
+      <VersionMajor>0</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Scripting">
+      <Guid>{420B2830-E718-11CF-893D-00A0C9054228}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="SPATypeLib">
+      <Guid>{9143C8CC-1474-11D4-9461-006094EB3826}</Guid>
+      <VersionMajor>0</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Modules\Layout_Program.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

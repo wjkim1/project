@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HPS_SM21_Layout_Program", "WindowsApp1\HPS_SM21_Layout_Program.vbproj", "{95F66C92-195C-4DCE-A3C8-3A5097CCCE95}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "STW_Update_Program", "STW_Update_Program\STW_Update_Program.vbproj", "{1981CA42-CCA8-432F-8D13-5AFCDE7D92CA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{95F66C92-195C-4DCE-A3C8-3A5097CCCE95} = {95F66C92-195C-4DCE-A3C8-3A5097CCCE95}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95F66C92-195C-4DCE-A3C8-3A5097CCCE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F66C92-195C-4DCE-A3C8-3A5097CCCE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F66C92-195C-4DCE-A3C8-3A5097CCCE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F66C92-195C-4DCE-A3C8-3A5097CCCE95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1981CA42-CCA8-432F-8D13-5AFCDE7D92CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1981CA42-CCA8-432F-8D13-5AFCDE7D92CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1981CA42-CCA8-432F-8D13-5AFCDE7D92CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1981CA42-CCA8-432F-8D13-5AFCDE7D92CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE822141-E7E2-4796-9B12-54B669C2A1C8}
+	EndGlobalSection
+EndGlobal

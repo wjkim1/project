@@ -1,0 +1,39 @@
+E:\00. Automation_Project\2019\HPS_SM21_Layout_Program\STW_Update_Program\bin\Release\STW_Update_Program.exe.config
+E:\00. Automation_Project\2019\HPS_SM21_Layout_Program\STW_Update_Program\bin\Release\STW_Update_Program.exe
+E:\00. Automation_Project\2019\HPS_SM21_Layout_Program\STW_Update_Program\bin\Release\STW_Update_Program.pdb
+E:\00. Automation_Project\2019\HPS_SM21_Layout_Program\STW_Update_Program\bin\Release\STW_Update_Program.xml
+E:\00. Automation_Project\2019\HPS_SM21_Layout_Program\STW_Update_Program\obj\Release\Interop.Scripting.dll
+E:\00. Automation_Project\2019\HPS_SM21_Layout_Program\STW_Update_Program\obj\Release\STW_Update_Program.vbproj.ResolveComReference.cache
+E:\00. Automation_Project\2019\HPS_SM21_Layout_Program\STW_Update_Program\obj\Release\STW_Update_Program.Resources.resources
+E:\00. Automation_Project\2019\HPS_SM21_Layout_Program\STW_Update_Program\obj\Release\STW_Update_Program.STW_Update_Program.resources
+E:\00. Automation_Project\2019\HPS_SM21_Layout_Program\STW_Update_Program\obj\Release\STW_Update_Program.vbproj.GenerateResource.Cache
+E:\00. Automation_Project\2019\HPS_SM21_Layout_Program\STW_Update_Program\obj\Release\STW_Update_Program.exe
+E:\00. Automation_Project\2019\HPS_SM21_Layout_Program\STW_Update_Program\obj\Release\STW_Update_Program.xml
+E:\00. Automation_Project\2019\HPS_SM21_Layout_Program\STW_Update_Program\obj\Release\STW_Update_Program.pdb
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190718_Save As 수정해야 됨\STW_Update_Program\bin\Release\STW_Update_Program.exe.config
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190718_Save As 수정해야 됨\STW_Update_Program\bin\Release\STW_Update_Program.exe
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190718_Save As 수정해야 됨\STW_Update_Program\bin\Release\STW_Update_Program.pdb
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190718_Save As 수정해야 됨\STW_Update_Program\bin\Release\STW_Update_Program.xml
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190718_Save As 수정해야 됨\STW_Update_Program\obj\Release\Interop.Scripting.dll
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190718_Save As 수정해야 됨\STW_Update_Program\obj\Release\STW_Update_Program.vbproj.ResolveComReference.cache
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190718_Save As 수정해야 됨\STW_Update_Program\obj\Release\STW_Update_Program.Resources.resources
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190718_Save As 수정해야 됨\STW_Update_Program\obj\Release\STW_Update_Program.STW_Update_Program.resources
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190718_Save As 수정해야 됨\STW_Update_Program\obj\Release\STW_Update_Program.vbproj.GenerateResource.cache
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190718_Save As 수정해야 됨\STW_Update_Program\obj\Release\STW_Update_Program.vbproj.CoreCompileInputs.cache
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190718_Save As 수정해야 됨\STW_Update_Program\obj\Release\STW_Update_Program.exe
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190718_Save As 수정해야 됨\STW_Update_Program\obj\Release\STW_Update_Program.xml
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190718_Save As 수정해야 됨\STW_Update_Program\obj\Release\STW_Update_Program.pdb
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190719_업데이트 수정 중\STW_Update_Program\bin\Release\STW_Update_Program.exe.config
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190719_업데이트 수정 중\STW_Update_Program\bin\Release\STW_Update_Program.exe
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190719_업데이트 수정 중\STW_Update_Program\bin\Release\STW_Update_Program.pdb
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190719_업데이트 수정 중\STW_Update_Program\bin\Release\STW_Update_Program.xml
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190719_업데이트 수정 중\STW_Update_Program\obj\Release\STW_Update_Program.vbprojAssemblyReference.cache
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190719_업데이트 수정 중\STW_Update_Program\obj\Release\Interop.Scripting.dll
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190719_업데이트 수정 중\STW_Update_Program\obj\Release\STW_Update_Program.vbproj.ResolveComReference.cache
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190719_업데이트 수정 중\STW_Update_Program\obj\Release\STW_Update_Program.Resources.resources
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190719_업데이트 수정 중\STW_Update_Program\obj\Release\STW_Update_Program.STW_Update_Program.resources
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190719_업데이트 수정 중\STW_Update_Program\obj\Release\STW_Update_Program.vbproj.GenerateResource.cache
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190719_업데이트 수정 중\STW_Update_Program\obj\Release\STW_Update_Program.vbproj.CoreCompileInputs.cache
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190719_업데이트 수정 중\STW_Update_Program\obj\Release\STW_Update_Program.exe
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190719_업데이트 수정 중\STW_Update_Program\obj\Release\STW_Update_Program.xml
+C:\SM21\WORK_REF\HPS_SM21_Layout_Program_190719_업데이트 수정 중\STW_Update_Program\obj\Release\STW_Update_Program.pdb
